@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -16,8 +16,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-white" href="#">Becky Goldstein</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,7 +38,26 @@
     <!-- Page Content -->
     <div class="mx-auto container" id="portfolio">
         <div class="row justify-content-center">
-          <div class="card mb-3 bg-dark" style="max-width: 768px">
+            <div class="col-md-6">
+
+                <!-- Cards -->
+                <div class="card mb-3 bg-dark" style="max-width: 18rem">
+                    <a href="https://beckygold.github.io/Psychic-Game/"><img class="card-img-top"
+                            src="assets/images/cosmic-cropped.jpg" alt="Card image cap"></a>
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cosmic Letter Guess</h5>
+                        <p class="card-text">A letter guessing game where the user has 9 attempts to guess the letter chosen at random by the computer.
+                            <br>
+                            Languages: HTML, CSS, JavaScript
+                            <br>
+                            <a href="https://github.com/beckygold/Psychic-Game">GitHub Repo</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="card mb-3 bg-dark" style="max-width: 768px">
             <div class="card-header bg-dark text-white">Portfolio</div>
             <div class="card-body bg-secondary text-white">
               <div class="row justify-content-center">
@@ -77,14 +96,15 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> -->
 
-        <footer class="footer bg-dark">
-            <div class="container">
-                <span class="text-white">Copyright &copy;</span>
-            </div>
-        </footer>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <span class="text-white">Copyright &copy;</span>
+        </div>
+    </footer>
 
 </html>
