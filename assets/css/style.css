@@ -46,3 +46,23 @@ body {
   .gild {
     color: #ffdb4d;
   }
+
+  .btn-custom {
+    color: #fff;
+    background-color: #ff9999;
+    border-color: #ff9999;
+  }
+
+  .btn-custom:hover {
+    color: #fff;
+    background-color: #ff8080;
+    border-color: #ff6666;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
