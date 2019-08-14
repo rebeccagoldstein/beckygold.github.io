@@ -21,45 +21,48 @@
         <h1 class="display-4"><strong>Rebecca <span class="gild">Goldstein</span></strong></h1>
 
         <div id="nav">
-                <h5>
-                        <a href="index.html"><i>About</i></a>
-                        /
-                        <a href="portfolio.html"><i>Portfolio</i></a>
-                        /
-                        <a href="https://github.com/beckygold"><i>Github</i></a>
-                        /
-                        <a href="https://www.linkedin.com/in/beckygold/"><i>LinkedIn</i></a>
-                        /
-                        <a href="contact.html"><i>Contact</i></a>
-                    </h5>
+            <h5>
+                <a href="index.html"><i>About</i></a>
+                /
+                <a href="portfolio.html"><i>Portfolio</i></a>
+                /
+                <a href="https://github.com/beckygold"><i>Github</i></a>
+                /
+                <a href="https://www.linkedin.com/in/beckygold/"><i>LinkedIn</i></a>
+                /
+                <a href="contact.html"><i>Contact</i></a>
+            </h5>
         </div>
     </div>
 
     <div class="container">
 
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
                 <p>
-                    <h1>Contact</h1>
-                    <br>
-                    <form id="contact-form">
-                        <ul>
-                            <li>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                            </li>
-                            <li>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com"
-                                    required="required">
-                            </li>
-                            <li>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
-                            </li>
-                        </ul>
-                        <input type="submit">
+                    <h1>Contact Me</h1>
+                    <form method="POST" action="https://formspree.io/regoldstein@protonmail.com">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Your name"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea type="text" name="message" class="form-control" placeholder="Your message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom">Submit</button>
                     </form>
+
+                    <!-- Formspree Test Form -->
+                    <!-- <form method="POST" action="https://formspree.io/regoldstein@protonmail.com">
+                            <input type="email" name="email" placeholder="Your email">
+                            <textarea name="message" placeholder="Test Message"></textarea>
+                            <button type="submit">Send Test</button>
+                          </form> -->
                 </p>
 
             </div>
